@@ -24,7 +24,7 @@ const nam1 = document.getElementById("number1")
 const nam2 = document.getElementById("number2")
 
 const add = document.getElementById("add")
-const diff = document.getElementById("diff")
+const sub = document.getElementById("sub")
 const div = document.getElementById("div")
 const mul = document.getElementById("mul")
 
@@ -37,7 +37,7 @@ add.addEventListener("click", (event) => {
     alert(`the sum is, ${sum}`)
     })
 
-diff.addEventListener("click", (event) =>{
+sub.addEventListener("click", (event) =>{
     event.preventDefault()
     const num1 = Number(nam1.value)
     const num2 = Number(nam2.value)
@@ -64,3 +64,4 @@ mul.addEventListener("click", (event) =>{
     console.log(num1, num2, mul)
     alert(`the multiplication is, ${mul}`)
 })
+
