@@ -15,21 +15,6 @@ add.addEventListener("click", () => {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 submit.addEventListener("click", (event) => {
     event.preventDefault()
 
