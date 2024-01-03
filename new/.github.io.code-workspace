@@ -1,0 +1,14 @@
+{
+  "folders": [
+	{
+		"path": ".."
+	},
+	{
+		"path": "../../../.github.io/a"
+	}
+],
+  "settings": {
+    "liveServer.settings.multiRootWorkspaceName": ".github.io",
+    "liveServer.settings.port": 5501
+  }
+}

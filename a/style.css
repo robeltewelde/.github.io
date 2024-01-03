@@ -1,0 +1,20 @@
+.input-one {
+  display: block;
+  margin-bottom: 20px;
+}
+
+.input-one label {
+  display: block;
+}
+
+.input-one input {
+  padding: 3px 8px;
+  font-family: "Sevillana", cursive;
+}
+#calculater {
+  border: 1px solid black;
+  display: block;
+  margin: auto;
+  width: 50%;
+  padding: 10px;
+}
