@@ -6,12 +6,12 @@ const submit = document.getElementById("submit");
 
 submit.addEventListener("click", (event) => {
   event.preventDefault();
-  const one = input1.value;
+
+  const inut1 = input1.value;
   const two = input2.value;
   const three = input3.value;
   const fhour = input4.value;
-
-  console.log();
+  console.log(inut1);
 });
 
 // const register = document.querySelectorAll([
