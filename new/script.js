@@ -65,3 +65,9 @@ mul.addEventListener("click", (event) =>{
     alert(`the multiplication is, ${mul}`)
 })
 
+
+function page() {
+    return (
+        <div></div>
+    )NAv
+}
