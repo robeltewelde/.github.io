@@ -1,0 +1,88 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.background {
+  position: absolute;
+  top: 0px;
+  width: 100%;
+  height: 100vh;
+  z-index: -1;
+  opacity: 0.5;
+}
+
+h1 {
+  font-family: "Arial", sans-serif;
+  color: blue;
+  font-size: 800;
+  text-align: center;
+}
+
+#Registration {
+  display: flex;
+  justify-content: space-around;
+  padding: 2px;
+}
+
+.one {
+  display: block;
+  border: 1px solid grey;
+  width: fit-content;
+  height: fit-content;
+  padding: 10px;
+  background-color: rgba(0, 0, 255, 0.322);
+  padding: 20px 35px;
+}
+
+.one label {
+  font-size: 21px;
+  margin-top: 4px;
+  margin-bottom: 2px;
+}
+
+.one select {
+  width: 100%;
+  padding: 3px 5px;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 17px;
+}
+
+.one input {
+  width: 100%;
+  padding: 3px 5px;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 17px;
+}
+
+.two {
+    display: block;
+  border: 1px solid grey;
+  width: fit-content;
+  height: fit-content;
+  padding: 10px;
+  background-color: rgba(0, 0, 255, 0.322);
+  padding: 20px 35px;
+}
+
+.two label {
+  font-size: 21px;
+  margin-top: 4px;
+  margin-bottom: 2px;
+}
+
+.two select {
+  width: 100%;
+  padding: 3px 5px;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 17px;
+}
+
+.two input {
+  padding: 3px 5px;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 17px;
+  margin-top: 20px;
+  margin-bottom: 5px;
+}
+
