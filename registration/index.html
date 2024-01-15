@@ -25,41 +25,61 @@
           <option value="backend">Backend</option>
           <option value="full-stack">Full-stack</option>
         </select>
+        <!-- <div>
+          <div style="display: flex">
+            <input type="radio" name="course" id="frontend" />
+            <label for="frontend">Frontend</label>
+          </div>
+          <div  style="display: flex">
+            <input type="radio" name="course" id="backend" />
+            <label for="frontend">Backend</label>
+          </div>
+          <div  style="display: flex">
+            <input type="radio" name="course" id="fullstack" />
+            <label for="frontend">Fullstack</label>
+          </div>
+        </div> -->
         <br />
         <label for="payment">payment</label>
-        <select name="" id="pay">
-          <option value="2500">2500</option>
-          <option value="3000">3000</option>
-          <option value="4000">4000</option>
-        </select>
+        <input type="text" id="pay" name="pay" />
         <br />
       </div>
       <div class="two">
         <label for="schajul">schajul</label>
         <select name="" id="select">
-          <option value="mondey">Mondey</option>
-          <option value="tuesday">Tuedsey</option>
-          <option value="wednesday">Wednesday</option>
-          <option value="thursdey">Thursdey</option>
-          <option value="frydey">Frydey</option>
+          <option value="mon & wed & sat  ">Mon & wed & fry  </option>
+          <option value="tue & thu & sat">Tue & thu & sat</option>
           <option value="wekend">Wekend</option>
           <option value="night">Night</option>
         </select>
         <br />
         <label for="class">Class </label>
-        <select name="" id="class">
+        <select name="cla" id="cla">
           <option value="group">Group</option>
           <option value="private">Private</option>
         </select>
-        <br>
-        <input type="button" value="submit" id="submit">
+        <br />
+        <input type="button" value="submit" id="submit" />
       </div>
     </form>
     <div id="entry">
+      <table>
+        <thead>
+          <tr>
+            <th>Name</th>
+            <th>Department</th>
+            <th>Payment</th>
+            <th>Schedule</th>
+            <th>Type of Class</th>
+            <th>Condition</th>
+          </tr>
+        </thead>
+        <tbody id="Body">
 
+        </tbody>
+      </table>
     </div>
 
     <script src="script.js"></script>
-    <script src="scrpt.js"></script>
   </body>
 </html>
