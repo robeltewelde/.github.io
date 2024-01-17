@@ -26,8 +26,6 @@ submit.addEventListener("click", (event) => {
   console.log(raw);
 
   tBody.appendChild(raw);
-
-
 });
 
 function tableRaw(data) {
@@ -56,6 +54,8 @@ function tableRaw(data) {
   return row;
 }
 
+
+
 dep.addEventListener("change", () => {
   const selected = dep.value;
   if (dep.value == "frontend") {
@@ -71,5 +71,10 @@ dep.addEventListener("change", () => {
 });
 
 tBody.addEventListener("click", (e) => {
-  console.log(e.target == button)
-})
+  const element = e.target;
+  if (element.textContent == "delet") {
+    const tr_del = element.parentElement.parentElement;
+    tr_del.remove();
+    console.log(tr_del);
+  }
+});

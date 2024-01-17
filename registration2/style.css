@@ -1,0 +1,57 @@
+body {
+  background-color: rgba(224, 206, 206, 0.534);
+  margin-top: 10px;
+}
+
+.head {
+  background-color: white;
+  padding: 10px 15px;
+  font-size: large;
+  height: 40vh;
+  width: 95vw;
+  border-radius: 40px;
+}
+
+.head h3 {
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.first .form {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#form .second {
+  margin-right: 10%;
+  padding: 5px 15px;
+}
+
+.second label {
+  font-size: 22px;
+  font-weight: 550;
+  display: block;
+}
+
+.second input {
+  width: 80;
+  height: 25px;
+  border-radius: 5px;
+  border: 1px solid;
+  font-size: 15px;
+}
+
+.second select {
+  width: 15vw;
+  height: 30px;
+  border-radius: 5px;
+  font-size: 15px;
+}
+
+.first button {
+  background-color: #ff7b72;
+  color: white;
+  text-align: center;
+  padding: 10px 40px;
+}
