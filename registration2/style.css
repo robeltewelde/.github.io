@@ -17,6 +17,22 @@ body {
   font-weight: 600;
 }
 
+.head .first #submit {
+  padding: 5px 15px;
+  background-color: rgba(9, 9, 195, 0.829);
+  color: #fff;
+  text-decoration: none;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  line-height: 40px;
+  outline: none;
+  border-radius: 20px;
+  /* font-family: "Arial", sans-serif; */
+  font-size: 16px;
+}
+
+
+
 .first .form {
   display: flex;
   justify-content: space-between;
@@ -55,3 +71,15 @@ body {
   text-align: center;
   padding: 10px 40px;
 }
+
+table {
+  border-collapse: collapse;
+}
+
+th,
+td,
+tr {
+  border: 1px solid black;
+  padding: 5px 15px;
+}
+
