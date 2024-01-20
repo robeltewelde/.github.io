@@ -70,7 +70,7 @@ tBody.addEventListener("click", (e) => {
         const tr_del = element.parentElement.parentElement;
         tr_del.remove();
     }
-    if (element.textContent == "Edit"){
+    if (element.textContent == "Edit") {
         
     }
 })
