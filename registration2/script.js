@@ -91,5 +91,15 @@ tBody.addEventListener("click", (e) => {
     console.log(tr_edit.getElementsByTagName("td")[0]);
     document.getElementById("nam").value =
       tr_edit.getElementsByTagName("td")[0].textContent;
+      document.getElementById("department").value =
+      tr_edit.getElementsByTagName("td")[0].textContent;
+      document.getElementById("payment").value =
+      tr_edit.getElementsByTagName("td")[0].textContent;
+      document.getElementById("sch").value =
+      tr_edit.getElementsByTagName("td")[0].textContent;
+      document.getElementById("shift").value =
+      tr_edit.getElementsByTagName("td")[0].textContent;
+      document.getElementById("class").value =
+      tr_edit.getElementsByTagName("td")[0].textContent;
   }
 });
